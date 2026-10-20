@@ -47,4 +47,11 @@ library(tidyverse)
 2 + 2
 ```
 
+```{r}
+#| label: arthur-code-2
+
+list <- c(4, 3, 5, 1, 2)
+mean(list)
+```
+
 ## Filipos r u joining?

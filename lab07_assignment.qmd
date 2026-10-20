@@ -8,11 +8,11 @@ editor: visual
 
 Group 7:
 
+-   Arthur Buis (s263500)
 -   Béatrice Floriane Maulaz (s261794)
+-   Filipos Michoykov (s263495)
 -   Luka Falk Joergensen (s245750)
 -   Nikolaj Krog (s245342)
--   Arthur Buis (s263500)
--   Filipos Michoykov (s263495)
 
 ## Load libraries and data
 
@@ -34,6 +34,7 @@ if( !file.exists(str_c(raw_dir, data_file)) ){
 }
 load(file = str_c(raw_dir, data_file))
 ```
+<<<<<<< HEAD
 
 ### Data wrangling from week 2
 ```{r}
@@ -49,3 +50,5 @@ cancer_data=relocate(cancer_data,c(pt_id,age,age_group,pt_id,event_label))
 #### Gene expression level
 
 
+=======
+>>>>>>> 346b83f39220ead19e31d5ec9dca92261d2cc60e

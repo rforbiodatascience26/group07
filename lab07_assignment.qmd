@@ -14,7 +14,9 @@ Group 7:
 -   Luka Falk Joergensen (s245750)
 -   Nikolaj Krog (s245342)
 
-## Load libraries
+
+
+## Load libraries and data
 
 ```{r}
 library(tidyverse)

@@ -13,3 +13,10 @@ Group 7:
 -   Nikolaj Krog (s245342)
 -   Arthur Buis (s263500)
 -   Filipos Michoykov (s263495)
+
+## Load libraries
+```{r}
+library(tidyverse)
+library(ggplot2)
+```
+

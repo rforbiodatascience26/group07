@@ -58,4 +58,6 @@ ggplot(data = cancer_data,
        title = "Histogram of g1A01 expression")
 ```
 
+This gene's expression level seems to follow a gaussian distribution centered in 0
+
 #### Gene expression level

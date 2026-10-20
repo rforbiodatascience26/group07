@@ -1,0 +1,15 @@
+---
+title: "Lab 7 Assignment: Group 07"
+format:
+  html:
+    embed-resources: true
+editor: visual
+---
+
+Group 7:
+
+-   Béatrice Floriane Maulaz (s261794)
+-   Luka Falk Joergensen (s245750)
+-   Nikolaj Krog (s245342)
+-   Arthur Buis (s263500)
+-   Filipos Michoykov (s263495)

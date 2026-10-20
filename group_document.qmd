@@ -13,7 +13,13 @@ Is this working?
 21+11
 ```
 
-ollo
+#### New feature
+
+Lunch is 2 hours away
+
+```{r}
+1+2+3
+```
 
 ## Nikolaj
 

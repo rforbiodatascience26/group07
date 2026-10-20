@@ -22,10 +22,25 @@ Group 7:
 library(tidyverse)
 library(ggplot2)
 ```
-<<<<<<< HEAD
 
-=======
->>>>>>> 463fb29ab3459912f3a253da1be4a20b1d8a2944
+```{r}
+library(tidyverse)
+library(ggplot2)
+
+raw_dir <- "data/_raw/"
+data_file <- "gravier.RData"
+data_loc <- "https://github.com/ramhiser/datamicroarray/raw/master/data/"
+
+if( !dir.exists(raw_dir) ){
+  dir.create(path = raw_dir)
+}
+if( !file.exists(str_c(raw_dir, data_file)) ){
+  download.file(
+    url = str_c(data_loc, data_file),
+    destfile = str_c(raw_dir, data_file))
+}
+load(file = str_c(raw_dir, data_file))
+```
 
 ### Data wrangling from week 2
 ```{r}
@@ -37,10 +52,7 @@ cancer_data=relocate(cancer_data,c(pt_id,age,age_group,pt_id,event_label))
 ```
 
 
-
 ### Data analysis 
-<<<<<<< HEAD
+
 #### Gene expression level
-=======
 #### Gene expression level
->>>>>>> 463fb29ab3459912f3a253da1be4a20b1d8a2944

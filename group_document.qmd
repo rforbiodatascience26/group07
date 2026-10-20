@@ -30,6 +30,11 @@ Crazy calculation
 ```{r}
 "Hello"
 ```
+#### New feature
+Testing my branch
+```{r}
+"hello again"
+```
 
 ## Arthur
 

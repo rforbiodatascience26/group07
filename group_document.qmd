@@ -18,7 +18,21 @@ ollo
 ## Nikolaj
 
 ## Béatrice
+#### Test chunk
+```{r}
+"Hello"
+```
 
 ## Arthur
+
+```{r}
+#| label: arthur-code
+#| message: false
+
+library(tidyverse)
+
+2 + 2
+```
+
 
 ## Filipos r u joining?

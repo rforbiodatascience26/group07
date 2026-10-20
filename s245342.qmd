@@ -4,4 +4,8 @@ format: html
 editor: visual
 ---
 
-## s245342
+## s245342 exercises for lab_07
+
+-   **Q5:** Find the `ggplot` GitHub repo again. How many branches there are?
+
+It says that it has 2.1k forks

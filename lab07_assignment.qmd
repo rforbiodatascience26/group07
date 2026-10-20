@@ -15,8 +15,8 @@ Group 7:
 -   Filipos Michoykov (s263495)
 
 ## Load libraries
+
 ```{r}
 library(tidyverse)
 library(ggplot2)
 ```
-

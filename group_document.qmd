@@ -13,13 +13,7 @@ Is this working?
 21+11
 ```
 
-#### New feature
-
-Lunch is 2 hours away
-
-```{r}
-1+2+3
-```
+ollo
 
 ## Nikolaj
 
@@ -49,8 +43,11 @@ beep + boop
 ```{r}
 "Hello"
 ```
+
 #### New feature
+
 Testing my branch
+
 ```{r}
 "hello again"
 ```

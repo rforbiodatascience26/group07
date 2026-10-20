@@ -22,7 +22,7 @@ Group 7:
 library(tidyverse)
 library(ggplot2)
 ```
-<<<<<<< HEAD
+
 
 ### Data wrangling from week 2
 ```{r}

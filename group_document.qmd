@@ -13,4 +13,14 @@ editor: visual
 
 ## Arthur
 
+```{r}
+#| label: arthur-code
+#| message: false
+
+library(tidyverse)
+
+2 + 2
+```
+
+
 ## Filipos r u joining?

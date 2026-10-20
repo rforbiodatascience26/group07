@@ -22,7 +22,10 @@ Group 7:
 library(tidyverse)
 library(ggplot2)
 ```
+<<<<<<< HEAD
 
+=======
+>>>>>>> 463fb29ab3459912f3a253da1be4a20b1d8a2944
 
 ### Data wrangling from week 2
 ```{r}
@@ -34,5 +37,10 @@ cancer_data=relocate(cancer_data,c(pt_id,age,age_group,pt_id,event_label))
 ```
 
 
+
 ### Data analysis 
+<<<<<<< HEAD
 #### Gene expression level
+=======
+#### Gene expression level
+>>>>>>> 463fb29ab3459912f3a253da1be4a20b1d8a2944

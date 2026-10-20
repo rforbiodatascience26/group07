@@ -49,8 +49,11 @@ beep + boop
 ```{r}
 "Hello"
 ```
+
 #### New feature
+
 Testing my branch
+
 ```{r}
 "hello again"
 ```

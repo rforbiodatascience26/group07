@@ -33,11 +33,5 @@ if( !file.exists(str_c(raw_dir, data_file)) ){
     destfile = str_c(raw_dir, data_file))
 }
 load(file = str_c(raw_dir, data_file))
-=======
-## Load libraries
-```{r}
-library(tidyverse)
-library(ggplot2)
->>>>>>> 7dee85a9c712c3cbd0f7cdb0f80b0a518c0c0dd9
 ```
 

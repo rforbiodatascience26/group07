@@ -13,9 +13,15 @@ Is this working?
 21+11
 ```
 
-ollo
-
 ## Nikolaj
+
+Calculation nr. 1
+
+```{r}
+2+5
+```
+
+Crazy calculation
 
 ## Béatrice
 
@@ -23,6 +29,11 @@ ollo
 
 ```{r}
 "Hello"
+```
+#### New feature
+Testing my branch
+```{r}
+"hello again"
 ```
 
 ## Arthur

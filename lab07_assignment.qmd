@@ -14,12 +14,9 @@ Group 7:
 -   Arthur Buis (s263500)
 -   Filipos Michoykov (s263495)
 
-<<<<<<< HEAD
-## Load libraries
 
-=======
+
 ## Load libraries and data
->>>>>>> f4dc675dec780469a4fea66d33784fa3ea7e2630
 ```{r}
 library(tidyverse)
 library(ggplot2)

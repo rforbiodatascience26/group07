@@ -43,3 +43,8 @@ cancer_data=rename(cancer_data,event_label=y)
 cancer_data$age_group=cut(cancer_data$age,breaks=seq(10,100,by=10))
 cancer_data=relocate(cancer_data,c(pt_id,age,age_group,pt_id,event_label))
 ```
+
+
+
+### Data analysis 
+#### Gene expression level

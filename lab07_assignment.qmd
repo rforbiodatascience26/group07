@@ -36,7 +36,3 @@ cancer_data=relocate(cancer_data,c(pt_id,age,age_group,pt_id,event_label))
 
 ### Data analysis 
 #### Gene expression level
-
-
-=======
->>>>>>> 346b83f39220ead19e31d5ec9dca92261d2cc60e

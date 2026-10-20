@@ -13,6 +13,8 @@ Is this working?
 21+11
 ```
 
+ollo
+
 ## Nikolaj
 
 Calculation nr. 1
@@ -22,6 +24,17 @@ Calculation nr. 1
 ```
 
 Crazy calculation
+
+#### New feature
+
+The new feature is "(i don't know honestly)"
+
+```{r}
+beep <- 13
+boop <- 8
+
+beep + boop
+```
 
 ## Béatrice
 

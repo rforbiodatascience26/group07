@@ -15,6 +15,7 @@ Group 7:
 -   Filipos Michoykov (s263495)
 
 ## Load libraries and data
+
 ```{r}
 library(tidyverse)
 library(ggplot2)
@@ -33,4 +34,18 @@ if( !file.exists(str_c(raw_dir, data_file)) ){
 }
 load(file = str_c(raw_dir, data_file))
 ```
+
+### Data wrangling from week 2
+```{r}
+set.seed(676571)
+cancer_data=mutate(as_tibble(pluck(gravier,"x")),y=pluck(gravier,"y"),pt_id=1:length(pluck(gravier, "y")),age=round(rnorm(length(pluck(gravier,"y")),mean=55,sd=10),1))
+cancer_data=rename(cancer_data,event_label=y)
+cancer_data$age_group=cut(cancer_data$age,breaks=seq(10,100,by=10))
+cancer_data=relocate(cancer_data,c(pt_id,age,age_group,pt_id,event_label))
+```
+
+
+### Data analysis 
+#### Gene expression level
+
 

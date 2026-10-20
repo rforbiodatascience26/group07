@@ -7,6 +7,14 @@ editor: visual
 
 ## Luka
 
+Is this working?
+
+```{r}
+21+11
+```
+
+ollo
+
 ## Nikolaj
 
 ## Béatrice

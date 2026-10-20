@@ -36,6 +36,7 @@ load(file = str_c(raw_dir, data_file))
 ```
 
 ### Data wrangling from week 2
+
 ```{r}
 set.seed(676571)
 cancer_data=mutate(as_tibble(pluck(gravier,"x")),y=pluck(gravier,"y"),pt_id=1:length(pluck(gravier, "y")),age=round(rnorm(length(pluck(gravier,"y")),mean=55,sd=10),1))
@@ -44,7 +45,15 @@ cancer_data$age_group=cut(cancer_data$age,breaks=seq(10,100,by=10))
 cancer_data=relocate(cancer_data,c(pt_id,age,age_group,pt_id,event_label))
 ```
 
+### Data analysis
 
-
-### Data analysis 
 #### Gene expression level
+
+```{r}
+ggplot(data = cancer_data,
+       mapping = aes(x = g7F07)) +
+  geom_histogram(bins=20) +
+  labs(x = "Gene expression",
+       y = "Count",
+       title = "Histogram of g7F07 expression")
+```

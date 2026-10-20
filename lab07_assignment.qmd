@@ -14,7 +14,14 @@ Group 7:
 -   Luka Falk Joergensen (s245750)
 -   Nikolaj Krog (s245342)
 
+
+
 ## Load libraries and data
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+```
 
 ```{r}
 library(tidyverse)
@@ -57,3 +64,18 @@ ggplot(data = cancer_data,
        y = "Count",
        title = "Histogram of g7F07 expression")
 ```
+
+```{r}
+#| label: histogram-of-arthur-favorite-gene
+
+ggplot(data = cancer_data,
+       mapping = aes(x = g1A01)) +
+  geom_histogram(bins=20) +
+  labs(x = "Gene expression",
+       y = "Count",
+       title = "Histogram of g1A01 expression")
+```
+
+This gene's expression level seems to follow a gaussian distribution centered in 0
+
+#### Gene expression level

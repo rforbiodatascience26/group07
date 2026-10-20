@@ -13,12 +13,12 @@ Is this working?
 21+11
 ```
 
-ollo
-
 ## Nikolaj
 
 ## Béatrice
+
 #### Test chunk
+
 ```{r}
 "Hello"
 ```
@@ -33,6 +33,5 @@ library(tidyverse)
 
 2 + 2
 ```
-
 
 ## Filipos r u joining?

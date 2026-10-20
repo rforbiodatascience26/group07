@@ -8,15 +8,15 @@ editor: visual
 
 Group 7:
 
+-   Arthur Buis (s263500)
 -   Béatrice Floriane Maulaz (s261794)
+-   Filipos Michoykov (s263495)
 -   Luka Falk Joergensen (s245750)
 -   Nikolaj Krog (s245342)
--   Arthur Buis (s263500)
--   Filipos Michoykov (s263495)
 
 ## Load libraries
+
 ```{r}
 library(tidyverse)
 library(ggplot2)
 ```
-

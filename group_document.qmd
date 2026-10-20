@@ -9,6 +9,14 @@ editor: visual
 
 ## Nikolaj
 
+Calculation nr. 1
+
+```{r}
+2+5
+```
+
+Crazy calculation
+
 ## Béatrice
 
 ## Arthur

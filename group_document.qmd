@@ -31,12 +31,28 @@ Calculation nr. 1
 
 Crazy calculation
 
+#### New feature
+
+The new feature is "(i don't know honestly)"
+
+```{r}
+beep <- 13
+boop <- 8
+
+beep + boop
+```
+
 ## Béatrice
 
 #### Test chunk
 
 ```{r}
 "Hello"
+```
+#### New feature
+Testing my branch
+```{r}
+"hello again"
 ```
 
 ## Arthur
@@ -48,6 +64,13 @@ Crazy calculation
 library(tidyverse)
 
 2 + 2
+```
+
+```{r}
+#| label: arthur-code-2
+
+list <- c(4, 3, 5, 1, 2)
+mean(list)
 ```
 
 ## Filipos r u joining?
